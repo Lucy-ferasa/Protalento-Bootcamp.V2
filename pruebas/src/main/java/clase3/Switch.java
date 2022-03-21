@@ -6,7 +6,7 @@ public class Switch {
 
 	public static void main(String[] args) {
 
-		// ingresar una opcion 
+		// ingresar una opcion: 
 		// si es 1 => alta
 		// si es 2 => baja
 		// si es 3 => modi

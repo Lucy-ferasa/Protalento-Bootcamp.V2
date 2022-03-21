@@ -6,7 +6,7 @@ public class If2 {
 
 	public static void main(String[] args) {
 
-		// ingrese contraseña y usuario
+		// ingrese contraseña y usuario,
 		// si contraseña = "1234" y usuario = admin => "ok"
 		// de lo contrario "fail"
 

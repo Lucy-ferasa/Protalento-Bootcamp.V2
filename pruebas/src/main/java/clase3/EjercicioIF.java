@@ -4,7 +4,7 @@ public class EjercicioIF {
 
 	public static void main(String[] args) {
 		
-	//determinar dado 3 numeros, cual es el mayor
+	//determinar dado 3 numeros, cual es el mayor?
 
 			// necesito 3 
 			// if
