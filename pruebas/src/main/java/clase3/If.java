@@ -8,7 +8,7 @@ public class If {
 		
 		Scanner teclado = new Scanner(System.in);
 
-		//Ingrese un dato y si es >= 18 imprimir "mayor de edad",
+		//Ingrese un dato y si es >= 18 imprimir "mayor de edad"
 		// de lo contrario indicar "es menor de edad"
 
 		System.out.println("Ingrese edad");
