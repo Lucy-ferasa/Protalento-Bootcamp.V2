@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class EjercicioIntegrador {
 
 	public static void main(String[] args) {
-		//ingrese 10 datos 
+		//ingrese 10 datos,
 		//maximo
 		//minimo
 		//posMax

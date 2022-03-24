@@ -11,7 +11,7 @@ public class CicloFor {
 		float[] alturas = new float[]{1,2};
 		float aux = alturas[0];
 
-		//ciclo for: recorre de a uno
+		//ciclo for: recorre de a uno asi
 		for(int i=0;i < alturas.length;i++) {
 			aux = alturas[i];// ??
 			System.out.println("pos:"+i + ", val:" + aux);

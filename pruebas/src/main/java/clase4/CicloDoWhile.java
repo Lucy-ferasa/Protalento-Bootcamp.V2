@@ -9,7 +9,7 @@ public class CicloDoWhile {
 		int i = 0;
 
 		do {
-			//codigo: 1
+			//codigo: 1:
 			System.out.println("pos:" + i +", val:"+edades[i]);
 
 			i++;

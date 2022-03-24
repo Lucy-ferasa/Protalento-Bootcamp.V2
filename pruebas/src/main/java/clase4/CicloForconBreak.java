@@ -6,7 +6,7 @@ public class CicloForconBreak {
 		
 		int[] datos = new int[] {10,0,15};
 
-		//break/continue
+		//break/continue:
 		for(int dato : datos) {
 			if(dato == 0) {
 				break;

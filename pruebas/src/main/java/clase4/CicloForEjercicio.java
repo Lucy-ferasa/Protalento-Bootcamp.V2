@@ -40,7 +40,7 @@ public class CicloForEjercicio {
 					vector[i] = datoleido;  
 				}
 
-				//procesamiento
+				//procesamientoo
 				//for/while/dowhile/foreach ??
 				for(int dato : vector) { 
 

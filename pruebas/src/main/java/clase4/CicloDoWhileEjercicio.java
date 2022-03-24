@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CicloDoWhileEjercicio {
 
 	public static void main(String[] args) {
-		// leer un valor numerico
+		// leer un valor numerico,
 		// > 0 && <=10
 		// acumular la suma de dichos valores
 		// MOSTRAR EL VALOR ACUMULADO
