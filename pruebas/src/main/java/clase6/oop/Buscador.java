@@ -2,8 +2,10 @@ package clase6.oop;
 
 public class Buscador {
 	
-	String claveBusqueda;
-	Articulo[] resultados;
+	//atributos
+	//modificadores
+	private String claveBusqueda;
+	private Articulo[] resultados;
 
 	Buscador() {
 
@@ -18,11 +20,11 @@ public class Buscador {
 
 		this.resultados = db.consultar(claveBusqueda);
 	}
-
+	/*
 	void definirClaveBusqueda(String clave) {
 		claveBusqueda = clave;
 	}
-
+	*/
 	void mostrarResultados() {
 		if(this.resultados.length > 0) {
 			for(Articulo aux : this.resultados ) {
