@@ -25,7 +25,11 @@ public class Buscador {
 		claveBusqueda = clave;
 	}
 	*/
-	void mostrarResultados() {
+	
+	//alt+shift+s
+	
+	
+		void mostrarResultados() {
 		if(this.resultados.length > 0) {
 			for(Articulo aux : this.resultados ) {
 				aux.detalleArticulo();
