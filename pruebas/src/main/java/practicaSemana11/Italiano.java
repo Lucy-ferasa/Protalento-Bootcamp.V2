@@ -6,5 +6,4 @@ public class Italiano implements IIdioma{
 		System.out.println("parlando italiano");
 
 	}
-
 }

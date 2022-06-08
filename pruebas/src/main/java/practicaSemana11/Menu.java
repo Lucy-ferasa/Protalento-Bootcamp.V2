@@ -12,8 +12,7 @@ public class Menu {
 
 	public Persona obtenerDatosPersona(Scanner teclado) {
 		System.out.println("Por favor ingrese los datos de la persona: ");
-		
-				
+						
 		System.out.println("Ingrese el nombre: ");
 		String nombre = teclado.next();
 		
@@ -24,7 +23,6 @@ public class Menu {
 		
 		
 		Set<String> lenguajes = new HashSet<>();
-		
 		
 		lenguajes.add("ES");
 		lenguajes.add("EN");

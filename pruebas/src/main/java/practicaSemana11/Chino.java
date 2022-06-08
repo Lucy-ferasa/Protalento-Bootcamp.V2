@@ -6,5 +6,4 @@ public class Chino implements IIdioma {
 		System.out.println("Non tendo");
 	
 	}
-
 }

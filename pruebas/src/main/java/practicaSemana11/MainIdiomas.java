@@ -57,8 +57,7 @@ public class MainIdiomas {
 						
 					IIdioma idioma = op.obtenerIdiomaAAprender(teclado);
 						
-					
-						
+										
 				} else if(opcion == 2) {
 					int codigoPersona;
 					System.out.println("Elija la persona que hablará: ");

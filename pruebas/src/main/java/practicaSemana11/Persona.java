@@ -11,9 +11,7 @@ public class Persona {
 
 	private IIdioma idiomaNativo;
 	private Set<IIdioma> otros;
-
 	private Map<Class, IIdioma> idiomas; 
-
 	private String nombre;
 	private String apellido;
 

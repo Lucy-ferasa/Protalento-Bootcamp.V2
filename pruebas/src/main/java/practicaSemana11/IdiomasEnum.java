@@ -13,4 +13,5 @@ public enum IdiomasEnum {
 	public IIdioma getIdioma() {
 		return this.idioma;
 	}
+
 }

@@ -88,7 +88,6 @@ public class BaseDatosPersona {
 
 		}
 
-
 	}
 
 }
