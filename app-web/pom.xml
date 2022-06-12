@@ -5,6 +5,7 @@
     <artifactId>app-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>pruebas</artifactId>
-  <name>primer curso java para no programadores</name>
+  <artifactId>app-web</artifactId>
+  <packaging>war</packaging>
+  <name>app web backoffice</name>
 </project>
