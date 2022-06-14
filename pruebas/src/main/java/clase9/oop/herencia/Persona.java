@@ -53,6 +53,7 @@ public abstract class Persona {
 	}
 
 	public abstract void detallar();//no esta implementado > el/los hijos deben implementar el comportamiento
+
 }
 
 

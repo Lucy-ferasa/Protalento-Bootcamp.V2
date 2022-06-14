@@ -9,5 +9,4 @@ public class Efectivo extends Empleado{
 			Integer id) {
 		super(nombre, apellido, colorPelo, id);
 	}
-
 }

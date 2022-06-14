@@ -23,4 +23,5 @@ public class Contratado extends Empleado{
 		super.detalle();
 		System.out.println("Periodo: " + this.getPeriodo());
 	}
+
 }

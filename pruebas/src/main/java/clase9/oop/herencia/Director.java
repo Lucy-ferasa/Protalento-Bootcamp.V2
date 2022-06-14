@@ -24,6 +24,7 @@ public final class Director extends Persona{
 	}
 	*/
 	//implementar el metodo abstracto del padre
+	
 	@Override
 	public void detallar() {
 		System.out.println("Empleados a cargo: " + this.getEmpACargo());		

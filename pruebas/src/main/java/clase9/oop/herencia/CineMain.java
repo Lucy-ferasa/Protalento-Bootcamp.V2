@@ -13,7 +13,7 @@ public class CineMain {
 
 		Director director = new Director("nombre director", "apellido director", "negro", 10);
 
-		//todas las personas pueden ir al cine
+		//todas las personas pueden ir al cine:
 		Persona[] personas = new Persona[4];
 		//personas[0] = persona;
 		personas[0] = empleado;

@@ -2,6 +2,7 @@ package clase9.oop.herencia;
 
 public class Empleado extends Persona {
 
+	
 	//atributo propio del empleado
 	private Integer id;
 

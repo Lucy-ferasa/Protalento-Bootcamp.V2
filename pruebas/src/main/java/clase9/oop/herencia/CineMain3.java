@@ -6,5 +6,4 @@ public class CineMain3 {
 		// TODO Auto-generated method stub
 
 	}
-
 }
