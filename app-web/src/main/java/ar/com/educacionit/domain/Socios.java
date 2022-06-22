@@ -1,8 +1,6 @@
 package ar.com.educacionit.domain;
 
-public class Socios {
-
-	
+public class Socios implements Entity{
 
 	private Long id;
 	private String nombre;
@@ -11,6 +9,10 @@ public class Socios {
 	private String direccion;
 	private Long paisesId;
 
+	public Socios() {
+
+	}
+	
 	public Socios(Long id, String nombre, String apellido, String email, String direccion, Long paisesId) {
 		this.id = id;
 		this.nombre = nombre;
