@@ -11,6 +11,10 @@ public class LectorPorConsole implements ILectora {
 		this.teclado = teclado;
 		this.opcion = opcion;
 	}
+	
+	public LectorPorConsole(Scanner teclado) {
+		this.teclado = teclado;
+	}
 
 	@Override
 	public Data leerDatos() {
