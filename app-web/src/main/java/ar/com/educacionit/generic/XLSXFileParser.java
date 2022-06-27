@@ -26,8 +26,6 @@ public class XLSXFileParser extends BaseFile implements IParser<Collection<Artic
 	//implementar el metodo generico, PERO, dandole un tipo concreto
 	public Collection<Articulos> parse() throws ParseException {
 
-		//necesito:
-
 		//libreria poi de apache
 
 		//leer un binario
@@ -38,13 +36,16 @@ public class XLSXFileParser extends BaseFile implements IParser<Collection<Artic
 
 		try(	
 				InputStream xlsxInputStream = new FileInputStream(xlsxFile);
-				Workbook workbook = new XSSFWorkbook(xlsxInputStream)
-			) {
+				Workbook workbook = new XSSFWorkbook(xlsxInputStream)){
+			
+			for(int i=0;i < workbook.getNumberOfSheets();i++) {
+
+
+				Sheet hojas = workbook.getSheetAt(i);
 
 			//usamos las clases propias de la libreria
 
-			Sheet hojas = workbook.getSheetAt(0);
-
+			
 			//collection
 			Iterator<Row> filasDeLaHoja0 = hojas.iterator();
 
@@ -73,6 +74,7 @@ public class XLSXFileParser extends BaseFile implements IParser<Collection<Artic
 				}
 				articulos.add(articulo);
 			}
+		}
 
 		} catch (IOException fnfe) {
 			throw new ParseException("No se ha podido parsear el archivo: " + getFilePath(),fnfe);
