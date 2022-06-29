@@ -63,8 +63,8 @@ public class XLSXFileParserMain {
 				table.addCell(articulo.getCodigo());
 				table.addCell(articulo.getPrecio().toString());
 				table.addCell(articulo.getStock().toString());
-				table.addCell(articulo.getMarcaId().toString());
-				table.addCell(articulo.getCategoriaId().toString());
+				table.addCell(articulo.getMarcasId().toString());
+				table.addCell(articulo.getCategoriasId().toString());
 			}
 
 			pdf.add(table);

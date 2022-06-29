@@ -6,9 +6,9 @@ import java.sql.SQLException;
 import ar.com.educacionit.dao.ArticuloDao;
 import ar.com.educacionit.domain.Articulos;
 
-public class ArticuloDaoImpl extends JdbcDaoBase<Articulos> implements ArticuloDao{
+public class ArticulosDaoImpl extends JdbcDaoBase<Articulos> implements ArticuloDao{
 
-	public ArticuloDaoImpl() {
+	public ArticulosDaoImpl() {
 		super("Articulos");
 	}
 
@@ -20,8 +20,8 @@ public class ArticuloDaoImpl extends JdbcDaoBase<Articulos> implements ArticuloD
 		st.setDate(3, new java.sql.Date(entity.getFechaCreacion().getTime()));
 		st.setDouble(4, entity.getPrecio());
 		st.setLong(5, entity.getStock());
-		st.setLong(6, entity.getMarcaId());
-		st.setLong(7, entity.getCategoriaId());
+		st.setLong(6, entity.getMarcasId());
+		st.setLong(7, entity.getCategoriasId());
 	}
 
 	@Override
@@ -35,8 +35,8 @@ public class ArticuloDaoImpl extends JdbcDaoBase<Articulos> implements ArticuloD
 		st.setString(1, entity.getTitulo());
 		st.setDouble(2, entity.getPrecio());
 		st.setLong(3, entity.getStock());
-		st.setLong(4,  entity.getMarcaId());
-		st.setLong(5, entity.getCategoriaId());
+		st.setLong(4,  entity.getMarcasId());
+		st.setLong(5, entity.getCategoriasId());
 	}
 
 	@Override

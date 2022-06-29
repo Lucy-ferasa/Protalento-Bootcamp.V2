@@ -9,6 +9,7 @@ public class SociosDaoTest {
 
 	public static void main(String[] args) {
 
+		/*
 		SociosService service = new SociosServiceImpl();
 		Socios socios = service.getOne(1l);
 		//socios va a tener todos los atributos NULOS por
@@ -18,5 +19,6 @@ public class SociosDaoTest {
 		CategoriaService cservice = new CategoriaServiceImpl();
 		Categorias categoria = cservice.getOne(2l);
 		System.out.println(categoria);
+		*/
 	}
 }

@@ -85,12 +85,10 @@ public class XLSXFileParser extends BaseFile implements IParser<Collection<Artic
 
 	//alt shift M
 	//creamos un nuevo metodo desde el codigo que estaba escrito arriba
-	private void fromCellToArticulos(Iterator<Cell> celdas, Articulos articulo) {
+	protected void fromCellToArticulos(Iterator<Cell> celdas, Articulos articulo) {
 		Cell celdaActual = celdas.next();
 		String valor;
-		int indiceColumna = celdaActual.getColumnIndex(); // de 0 a n
-
-		switch(indiceColumna) {
+	switch(celdaActual.getColumnIndex()) {// de 0 a n
 		case 0:
 			valor = celdaActual.getStringCellValue();
 			articulo.setTitulo(valor);
@@ -109,11 +107,11 @@ public class XLSXFileParser extends BaseFile implements IParser<Collection<Artic
 			break;
 		case 4:
 			Double marcasId = (Double)celdaActual.getNumericCellValue();
-			articulo.setMarcaId(marcasId.longValue());
+			articulo.setMarcasId(marcasId.longValue());
 			break;
 		case 5:
 			Double categoriasId = (Double)celdaActual.getNumericCellValue();
-			articulo.setCategoriaId(categoriasId.longValue());
+			articulo.setCategoriasId(categoriasId.longValue());
 			break;
 		default:
 			break;
