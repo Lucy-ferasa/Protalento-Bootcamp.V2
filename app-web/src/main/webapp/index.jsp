@@ -3,7 +3,7 @@
 		<title>Clase36 - Inicio java web</title>
 	</head>
 	<body>
-		<h1>Clase36 Ohh siiii </h1>
+		<h1>Clase36 Ohh siiuu </h1>
 		<!-- creo un formulario -->
 		<form action="<%=request.getContextPath()%>/ListadoServlet"
 		 	method="POST">
