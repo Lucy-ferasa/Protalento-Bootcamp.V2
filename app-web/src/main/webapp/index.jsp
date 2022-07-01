@@ -17,6 +17,7 @@
 			<!-- con un boton dentro -->
 			<input type="submit" value="Pedir Listado"/>
 		</form>
+		<img src="<%=request.getContextPath()%>/img/LisaGuay.webp"/>
 		
 	</body>
 </html>
